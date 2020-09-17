@@ -31,9 +31,14 @@
                (html-rune 'my-cool-particles
                           (svg-rune-description
                            (rune-background
-                            #:color "green"
+                            #:color "purple"
                             (rune-image
-                             (circle 40 'solid 'purple)))))))))
+                             ;I grabbed the first purple thing I found on the Discord channel.
+                             ;  Credit: Jhy Gildowan
+                             ;  And thanks Runi for making this SWEET Discord bot!!!!!
+                             (overlay
+                              (circle 50 "outline" "silver")
+                              (pulled-regular-polygon 30 10 5 30 "outline" "blue"))))))))))
 
 ;TODO: raco tool to create new mod project --
 ;   with Unreal project template?
